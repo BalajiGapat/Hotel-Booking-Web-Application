@@ -15,7 +15,7 @@ ___
 
 ## Overview
 
-The Hotel Management Application is a Spring Boot-based system designed to manage hotel room data efficiently. It provides a set of RESTful API endpoints for tasks such as creating, retrieving, updating, and deleting room records. This application offers features for room type filtering, price updates, and availability tracking.
+The Hotel Booking web Application is a Spring Boot-based system designed to manage hotel room room. It provides a set of RESTful API endpoints for tasks such as creating, retrieving, updating, and deleting room records. This application offers features to filter a room by room type.
 
 ## Technologies Used
 
@@ -25,15 +25,6 @@ The Hotel Management Application is a Spring Boot-based system designed to manag
 - **Database:** MySQL
 
 ## Project Summary
-
-The Hotel Management Application is a Spring Boot-based system designed for efficient room data management. It offers a set of RESTful API endpoints for various room-related operations, including creating, retrieving, updating, and deleting room records.
-
-### Key Technologies Used
-
-- **Framework:** Spring Boot
-- **Language:** Java
-- **Build Tool:** Maven
-- **Database:** MySQL
 
 #### Controller
 
@@ -55,11 +46,3 @@ The Repository layer manages data access to the embedded H2 database, performing
 - Efficient data storage and retrieval using MySQL database.
 
 The Hotel Management Application serves as a practical example of Spring Boot application development, demonstrating best practices in API design and room data management. It offers a solid foundation for building and extending hotel management systems in various applications.
-
-<!-- Acknowledgments -->
-## Acknowledgments
-Special thanks to the Spring Boot and Java communities for providing valuable tools and resources.
-
-<!-- Contact -->
-## Contact
-For questions or feedback, please contact [Balaji Gapat](mailto:gapatbalaji@gmail.com).
