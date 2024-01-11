@@ -5,7 +5,7 @@ ___
     <img alt="Java" src="https://img.shields.io/badge/Java->=8-darkblue.svg" />
     <img alt="Maven" src="https://img.shields.io/badge/maven-4.0-brightgreen.svg" />
     <img alt="Spring Boot" src="https://img.shields.io/badge/Spring Boot-3.1.3-brightgreen.svg" />
-    <img alt="MySQL Database" src="https://img.shields.io/badge/H2%20Database-embedded-orange.svg" /> 
+<!--     <img alt="MySQL Database" src="https://img.shields.io/badge/H2%20Database-embedded-orange.svg" />  -->
 </p>
 
 
@@ -47,28 +47,14 @@ The Services layer implements core business logic and data processing, including
 
 The Repository layer manages data access to the embedded H2 database, performing Create, Read, Update, and Delete (CRUD) operations for room data.
 
-#### Database Design
-
-The database design includes tables for room management, featuring fields such as `roomId`, `roomNo`, `roomType`, `roomPrice`, and `roomAvailableStatus`.
-
-### Data Structures Used
-
-- **Room Class:** Defines the structure for room data, including room attributes and availability status.
-- **RoomType Enum:** Enumerates room types (AC, NON_AC).
-- **ArrayList:** Utilized for managing lists of `Room` objects efficiently.
-
 ### Key Features
 
 - RESTful API endpoints for room management.
 - Data validation to ensure data integrity.
 - Clean code separation with a layered architecture (Controller, Services, Repository).
-- Efficient data storage and retrieval using an embedded H2 database.
+- Efficient data storage and retrieval using MySQL database.
 
 The Hotel Management Application serves as a practical example of Spring Boot application development, demonstrating best practices in API design and room data management. It offers a solid foundation for building and extending hotel management systems in various applications.
-
-<!-- License -->
-## License
-This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
 <!-- Acknowledgments -->
 ## Acknowledgments
@@ -76,4 +62,4 @@ Special thanks to the Spring Boot and Java communities for providing valuable to
 
 <!-- Contact -->
 ## Contact
-For questions or feedback, please contact [Amit Ashok Swain](mailto:business.amitswain@gmail.com).
+For questions or feedback, please contact [Amit Ashok Swain](mailto:gapatbalaji@gmail.com).
