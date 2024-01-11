@@ -62,4 +62,4 @@ Special thanks to the Spring Boot and Java communities for providing valuable to
 
 <!-- Contact -->
 ## Contact
-For questions or feedback, please contact [Amit Ashok Swain](mailto:gapatbalaji@gmail.com).
+For questions or feedback, please contact [Balaji Gapat](mailto:gapatbalaji@gmail.com).
