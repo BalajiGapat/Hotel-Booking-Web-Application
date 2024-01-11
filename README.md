@@ -24,7 +24,7 @@ The Hotel Management Application is a Spring Boot-based system designed to manag
 - **Framework:** Spring Boot
 - **Language:** Java
 - **Build Tool:** Maven
-- **Database:** H2 (embedded)
+- **Database:** MySQL
 
 ## Data Flow
 
